@@ -2,6 +2,12 @@ import react, { useState } from "react";
 import questions from "./data/data.json";
 
 export default function App() {
+  let [selectedOption, setSelectedOption] = useState("");
+
+  const onClickSelect = (selectedOption) => {
+    setSelectedOption(selectedOption);
+    console.log(selectedOption);
+  };
   return (
     <>
       <h1 className="px-4 py-3 text-center text-2xl bg-teal-500 text-white/95 font-bold rounded-t-md">
@@ -18,7 +24,14 @@ export default function App() {
               <div className="flex flex-col w-full gap-3 pt-3 pb-2  px-2 relative">
                 {q.options.map((options) => (
                   <div key={options}>
-                    <div className=" active:bg-emerald-300  relative w-full h-8">
+                    <div
+                      className={
+                        options === selectedOption
+                          ? " visited: bg-black"
+                          : "relative w-full h-8"
+                      }
+                      onClick={() => onClickSelect(options)}
+                    >
                       {options}
                     </div>
                   </div>
