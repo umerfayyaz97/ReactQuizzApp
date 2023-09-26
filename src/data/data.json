@@ -3,109 +3,101 @@
         "id":0,
         "question": "Which one is the smallest ocean in the World?" ,
         "options":[
-            "Indian",
-            "Pacific",
-            "Atlantic",
-            "Arctic"
-        ],
-        "answer": "Arctic"
+           { "text":"Indian", "isCorrect": false},
+           { "text":"Pacific","isCorrect": false},
+           { "text":"Atlantic","isCorrect": false},
+           { "text":"Arctic","isCorrect": true}
+    ]
+       
     },
     {
         "id":1,
         "question": "Which country gifted the Statue of Liberty to USA in 1886?" ,
         "options":[
-            "France",
-            "Canada",
-            "Brazil",
-            "England"
-        ],
-        "answer": "France"
+            { "text":"France", "isCorrect": true},
+            { "text":"Canada", "isCorrect": false},
+            { "text":"Brazil", "isCorrect": false},
+            { "text":"England", "isCorrect": false}
+        ]
     },
     {
         "id":2,
         "question": "Dead Sea is located between which two countries?" ,
         "options":[
-            "Jordan and Sudan",
-            "Jordan and Israel",
-            "Turkey and UAE",
-            "UAE and Egypt"
-        ],
-        "answer": "Jordan and Israel"
+            { "text":"Jordan and Sudan", "isCorrect": false},
+            { "text":"Jordan and Israel", "isCorrect": true},
+            { "text":"Turkey and UAE", "isCorrect": false},
+            { "text":"UAE and Egypt", "isCorrect": false}
+        ]
     },
     {
         "id":3,
         "question": "In which ocean Bermuda Triangle region is located?" ,
         "options":[
-            "Indian",
-            "Pacific",
-            "Atlantic",
-            "Arctic"
-        ],
-        "answer": "Atlantic"
+            { "text":"Indian", "isCorrect": false},
+           { "text":"Pacific","isCorrect": false},
+           { "text":"Atlantic","isCorrect": true},
+           { "text":"Arctic","isCorrect": false}
+        ]
     },
     {
         "id":4,
         "question": "Which country is also known as the Land of Rising Sun?" ,
         "options":[
-            "Japan",
-            "New Zealand",
-            "Fiji",
-            "China"
-        ],
-        "answer": "Japan"
+            { "text":"Japan","isCorrect": true},
+            { "text":"New Zealand","isCorrect": false},
+            { "text":"Fiji","isCorrect": false},
+            { "text":"China","isCorrect": false}
+        ]
     },
     {
         "id":5,
         "question": "Which country is known as the Land of Thunderbolts?" ,
         "options":[
-            "China",
-            "Bhutan",
-            "Mangolia",
-            "Thailand"
-        ],
-        "answer": "Bhutan"
+            { "text":"China","isCorrect": false},
+            { "text":"Bhutan","isCorrect": true},
+            { "text":"Mangolia","isCorrect": false},
+            { "text":"Thailand","isCorrect": false}
+        ]
     },
     {
         "id":6,
         "question": "Which continent has the highest number of countries?" ,
         "options":[
-            "Asia",
-            "Europe",
-            "Africa",
-            "North America"
-        ],
-        "answer": "Africa"
+          { "text":  "Asia","isCorrect": false},
+            { "text":"Europe","isCorrect": false},
+            { "text":"Africa","isCorrect": true},
+           { "text": "North America","isCorrect": false}
+        ]
     },
     {
         "id":7,
         "question": "In which country, white elephant is found?" ,
         "options":[
-            "India",
-            "Sri Lanka",
-            "Thailand",
-            "Malaysia"
-        ],
-        "answer": "Thailand"
+            { "text":  "India","isCorrect": false},
+            { "text":  "Sri Lanka","isCorrect": false},
+            { "text":  "Thailand","isCorrect": true},
+             { "text": "Malaysia","isCorrect": false}
+        ]
     },
     {
         "id":8,
         "question": "Total number of oceans in the World is?" ,
         "options":[
-            "3",
-            "5",
-            "7",
-            "12"
-        ],
-        "answer": "5"
+             { "text": "3","isCorrect": false},
+             { "text": "5","isCorrect": true},
+             { "text": "7","isCorrect": false},
+             { "text": "12","isCorrect": false}
+        ]
     },
     {
         "id":9,
         "question": "Which country is also known as the Land of Thousand Lakes?" ,
         "options":[
-            "Iceland",
-            "Norway",
-            "Finland",
-            "Switzerland"
+           { "text":   "Iceland" ,"isCorrect": false},
+           { "text":   "Norway","isCorrect": false},
+             { "text": "Finland","isCorrect": true},
+            { "text":  "Switzerland","isCorrect": false}
         ],
         "answer": "Finland"
     }
