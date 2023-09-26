@@ -1,4 +1,4 @@
-import react, { useState } from "react";
+import { useState } from "react";
 import questions from "./data/data.json";
 
 export default function App() {
